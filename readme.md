@@ -22,3 +22,7 @@ dynamicallyHtml('<div>hello world</div>');
 ## Demo
 
 https://niceaji.github.io/dynamically-html
+
+## Related
+
+[dynamically-css](https://github.com/niceaji/dynamically-css)
