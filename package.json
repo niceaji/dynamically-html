@@ -1,0 +1,29 @@
+{
+  "name": "dynamically-html",
+  "version": "1.0.0",
+  "description": "Dynamically HTML in HTML",
+  "main": "index.js",
+  "scripts": {
+    "test:build": "node build.js > test/dist/bundle.js",
+    "gh-pages": "git push origin master && git subtree push --prefix test origin gh-pages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceaji/dynamically-html.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niceaji/dynamically-html/issues"
+  },
+  "homepage": "https://github.com/niceaji/dynamically-html#readme",
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "stringify": "^5.1.0"
+  }
+}
